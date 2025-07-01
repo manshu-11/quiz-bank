@@ -1,0 +1,134 @@
+button.optionButton {
+  border: none;
+  background-color: #f3f3f3;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  border-radius: 5px;
+  color: #333;
+  font-size: 16px;
+}
+
+button.optionButton span {
+  display: b;
+}
+
+button.optionButton p {
+  margin: 0;
+}
+
+button.optionButton.mcq .optBtn {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  background-color: #fff;
+  flex: 0 0 28px;
+  border-radius: 5px;
+  border: 5px solid #444;
+  border-radius: 50%;
+}
+
+button.optionButton:disabled {
+  cursor: default;
+}
+
+button.optionButton.mcq:hover .optBtn::after {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background-color: #50d1ff;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 2px;
+  border-radius: 50%;
+  animation: overMcqMrq 500ms forwards;
+}
+
+button.optionButton.mcq.selected .optBtn::after {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background-color: #50d1ff;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 2px;
+  border-radius: 50%;
+}
+
+button.optionButton.mrq .optBtn {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  background-color: #fff;
+  flex: 0 0 28px;
+  border-radius: 5px;
+  border: 5px solid #444;
+}
+
+button.optionButton.mrq.selected .optBtn::after {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background-color: #50d1ff;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 2px;
+}
+
+button.optionButton.mrq:hover .optBtn::after {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background-color: #50d1ff;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 2px;
+  animation: overMcqMrq 500ms forwards;
+}
+
+button.optionButton.mcq.selected:hover .optBtn::after {
+  animation: none;
+}
+
+button.optionButton.mrq.selected:hover .optBtn::after {
+  animation: none;
+}
+
+button.optionButton .optText {
+  text-align: left;
+}
+
+@keyframes overMcqMrq {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(100%);
+  }
+}

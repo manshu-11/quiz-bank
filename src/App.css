@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+p h1 {
+  margin: 0;
+}
+.quiz_bank .button-box {
+  margin: 10px 0;
+}
+.quiz_bank {
+  position: relative;
+  width: 1200px;
+  margin: 0px auto;
+  background-color: #f2f2f2;
+  height: 675px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #1500ff4d;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: url("/public/images/qbg.png") no-repeat transparent 0 0;
+}
+.quiz_bank .intro-box {
+  background: url("/public/images/quiz.jpg") no-repeat transparent 0 0;
+}

@@ -1,0 +1,121 @@
+.intro-box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.intro-box .user-info,
+.intro-box .q-setting,
+.intro-box .quiz-intro,
+.intro-box .login-info {
+  border: 1px solid #9586af;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px #c1b7ce;
+  background-color: #9586af;
+  margin-right: 50px;
+  position: absolute;
+}
+.intro-box .quiz-intro {
+  margin-right: 50px;
+  width: 500px;
+  font-size: 20px;
+  position: absolute;
+}
+.intro-box .quiz-intro p:last-child {
+  font-size: 30px;
+}
+.intro-box .quiz-intro .buttonBox {
+  display: flex;
+  gap: 20px;
+}
+.intro-box .login-info {
+  opacity: 0;
+}
+.intro-box .user-info {
+  opacity: 0;
+}
+.intro-box .q-setting {
+  opacity: 0;
+}
+.intro-box .option {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+}
+.intro-box .option select {
+  font-size: 14px;
+  padding: 5px;
+}
+.intro-box .input-box {
+  width: 300px;
+  padding: 5px;
+  font-size: 16px;
+}
+.intro-box label {
+  color: #3d2960;
+}
+.intro-box .info-label {
+  font-size: 20px;
+  width: 150px;
+  color: #3d2960;
+}
+
+.intro-box .quiz-setting-content .info-label {
+  font-size: 20px;
+  width: 180px;
+  color: #3d2960;
+}
+.intro-box .user-info-box {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #30155f;
+}
+.intro-box .user-info-box p {
+  margin: 0;
+}
+.intro-box button {
+  border: none;
+  background-color: #30155f;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #b3c9ff;
+  cursor: pointer;
+}
+.intro-box button:hover {
+  background-color: #7156a0;
+}
+.hide {
+  animation: animHide 0.5s ease-in-out forwards;
+}
+.show {
+  animation: animShow 0.5s ease-in-out forwards;
+}
+
+@keyframes animHide {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+}
+@keyframes animShow {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+    z-index: 100;
+  }
+}

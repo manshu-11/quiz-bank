@@ -1,0 +1,59 @@
+.quiz_bank .user-details-q {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #30155f;
+}
+.user-details-q p {
+  margin: 0;
+}
+.questionHolder .qNo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  color: #30155f;
+}
+.questionHolder {
+  width: 800px;
+  position: relative;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #6962ad2b;
+  border-radius: 10px;
+}
+.questionHolder p {
+  margin: 0;
+}
+.questionHolder .questionText {
+  font-size: 18px;
+  color: #30155f;
+  font-weight: bold;
+}
+.questionHolder .questionInst {
+  color: #660808;
+}
+.optionBox {
+  margin-top: 10px;
+  box-shadow: 0px 0px 10px #70859b70;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.feedback-holder .correctFeedback {
+  margin-top: 10px;
+  box-shadow: 0px 0px 10px #70859b70;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #52db5236;
+}
+
+.feedback-holder .wrongFeedback {
+  margin-top: 10px;
+  box-shadow: 0px 0px 10px #70859b70;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #ff00002e;
+}

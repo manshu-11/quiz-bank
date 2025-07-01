@@ -1,0 +1,204 @@
+{
+  "quiz": [
+    {
+      "id": 0,
+      "type": "mcq",
+      "questionText": [
+        {
+          "text": "Which law states that the pressure of a gas is inversely proportional to its volume at constant temperature?"
+        }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "Charles's Law" },
+        { "value": true, "text": "Boyle's Law" },
+        { "value": false, "text": "Avogadro's Law" },
+        { "value": false, "text": "Newton's Law" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Correct: Boyle's Law describes the pressure-volume relationship."
+        }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: The correct answer is Boyle's Law." }
+      ]
+    },
+    {
+      "id": 1,
+      "type": "mrq",
+      "questionText": [
+        { "text": "Which of the following are types of gears?" }
+      ],
+      "instructionText": "Select all correct answers and select Submit.",
+      "option": [
+        { "value": true, "text": "Spur Gear" },
+        { "value": true, "text": "Bevel Gear" },
+        { "value": false, "text": "Ball Bearing" },
+        { "value": true, "text": "Helical Gear" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Correct: Spur, Bevel, and Helical gears are all types of gears."
+        }
+      ],
+      "wrongFbText": [
+        {
+          "text": "Incorrect: Ball Bearing is not a gear; it's a rolling element."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "questionText": [
+        {
+          "text": "Thermodynamics deals with heat and temperature and their relation to energy and work."
+        }
+      ],
+      "instructionText": "Select True or False and select Submit.",
+      "option": [
+        { "value": true, "text": "True" },
+        { "value": false, "text": "False" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Correct: Thermodynamics studies heat, temperature, and energy."
+        }
+      ],
+      "wrongFbText": [
+        {
+          "text": "Incorrect: Thermodynamics is the science of heat and energy transfer."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "questionText": [
+        { "text": "Which instrument is used to measure pressure?" }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "Thermometer" },
+        { "value": true, "text": "Manometer" },
+        { "value": false, "text": "Anemometer" },
+        { "value": false, "text": "Voltmeter" }
+      ],
+      "correctFbText": [{ "text": "Correct: Manometers measure pressure." }],
+      "wrongFbText": [{ "text": "Incorrect: The correct answer is Manometer." }]
+    },
+    {
+      "id": 4,
+      "type": "mrq",
+      "questionText": [{ "text": "Which of the following are prime movers?" }],
+      "instructionText": "Select all correct answers and select Submit.",
+      "option": [
+        { "value": true, "text": "Steam Turbine" },
+        { "value": true, "text": "Hydraulic Turbine" },
+        { "value": false, "text": "Gear Pump" },
+        { "value": true, "text": "Diesel Engine" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Correct: Steam Turbine, Hydraulic Turbine, and Diesel Engine are all prime movers."
+        }
+      ],
+      "wrongFbText": [{ "text": "Incorrect: Gear Pump is not a prime mover." }]
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "questionText": [{ "text": "The SI unit of force is the Newton." }],
+      "instructionText": "Select True or False and select Submit.",
+      "option": [
+        { "value": true, "text": "True" },
+        { "value": false, "text": "False" }
+      ],
+      "correctFbText": [{ "text": "Correct: Newton is the SI unit of force." }],
+      "wrongFbText": [
+        { "text": "Incorrect: Newton (N) is the standard unit of force." }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "questionText": [
+        {
+          "text": "Which one of the following is used to reduce friction between moving parts?"
+        }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "Heat Exchanger" },
+        { "value": false, "text": "Compressor" },
+        { "value": true, "text": "Lubricant" },
+        { "value": false, "text": "Evaporator" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Lubricants reduce friction between parts." }
+      ],
+      "wrongFbText": [{ "text": "Incorrect: Lubricant is the correct answer." }]
+    },
+    {
+      "id": 7,
+      "type": "mrq",
+      "questionText": [
+        { "text": "Which materials are commonly used in manufacturing gears?" }
+      ],
+      "instructionText": "Select all correct answers and select Submit.",
+      "option": [
+        { "value": true, "text": "Cast Iron" },
+        { "value": true, "text": "Steel" },
+        { "value": false, "text": "Glass" },
+        { "value": true, "text": "Bronze" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Correct: Cast Iron, Steel, and Bronze are commonly used materials for gears."
+        }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: Glass is not used in gear manufacturing." }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "questionText": [
+        {
+          "text": "Welding is a process used to join two or more materials together."
+        }
+      ],
+      "instructionText": "Select True or False and select Submit.",
+      "option": [
+        { "value": true, "text": "True" },
+        { "value": false, "text": "False" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Welding joins materials using heat or pressure." }
+      ],
+      "wrongFbText": [{ "text": "Incorrect: Welding is a joining process." }]
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "questionText": [
+        {
+          "text": "Which process is used to remove unwanted material from a workpiece?"
+        }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "Casting" },
+        { "value": false, "text": "Forging" },
+        { "value": true, "text": "Machining" },
+        { "value": false, "text": "Welding" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Machining removes material to shape the part." }
+      ],
+      "wrongFbText": [{ "text": "Incorrect: The correct answer is Machining." }]
+    }
+  ]
+}

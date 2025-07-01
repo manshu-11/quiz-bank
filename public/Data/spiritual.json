@@ -1,0 +1,228 @@
+{
+  "quiz": [
+    {
+      "id": 0,
+      "type": "mcq",
+      "questionText": [
+        { "text": "Who is considered the founder of Buddhism?" }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "Mahavira" },
+        { "value": true, "text": "Gautama Buddha" },
+        { "value": false, "text": "Krishna" },
+        { "value": false, "text": "Guru Nanak" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Gautama Buddha founded Buddhism." }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: The correct answer is Gautama Buddha." }
+      ]
+    },
+    {
+      "id": 1,
+      "type": "mrq",
+      "questionText": [{ "text": "Which of the following are sacred texts?" }],
+      "instructionText": "Select all correct answers and select Submit.",
+      "option": [
+        { "value": true, "text": "Bhagavad Gita" },
+        { "value": true, "text": "Quran" },
+        { "value": false, "text": "Panchatantra" },
+        { "value": true, "text": "Bible" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Bhagavad Gita, Quran, and Bible are sacred texts." }
+      ],
+      "wrongFbText": [
+        {
+          "text": "Incorrect: Panchatantra is a collection of fables, not a sacred text."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "questionText": [
+        {
+          "text": "Meditation is a spiritual practice aimed at achieving inner peace."
+        }
+      ],
+      "instructionText": "Select True or False and select Submit.",
+      "option": [
+        { "value": true, "text": "True" },
+        { "value": false, "text": "False" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Correct: Meditation helps calm the mind and connect inward."
+        }
+      ],
+      "wrongFbText": [
+        {
+          "text": "Incorrect: Meditation is indeed a spiritual practice for inner peace."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "questionText": [
+        {
+          "text": "Which Hindu god is known as the 'Destroyer' in the Trimurti?"
+        }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "Brahma" },
+        { "value": true, "text": "Shiva" },
+        { "value": false, "text": "Vishnu" },
+        { "value": false, "text": "Indra" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Correct: Shiva is known as the 'Destroyer' in the Hindu trinity."
+        }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: The correct answer is Lord Shiva." }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "mrq",
+      "questionText": [
+        { "text": "Which of the following are considered spiritual practices?" }
+      ],
+      "instructionText": "Select all correct answers and select Submit.",
+      "option": [
+        { "value": true, "text": "Meditation" },
+        { "value": true, "text": "Chanting" },
+        { "value": true, "text": "Yoga" },
+        { "value": false, "text": "Shopping" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Correct: Meditation, Chanting, and Yoga are spiritual practices."
+        }
+      ],
+      "wrongFbText": [
+        {
+          "text": "Incorrect: Shopping is not considered a spiritual practice."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "questionText": [
+        {
+          "text": "Karma refers to the law of cause and effect in Hinduism and Buddhism."
+        }
+      ],
+      "instructionText": "Select True or False and select Submit.",
+      "option": [
+        { "value": true, "text": "True" },
+        { "value": false, "text": "False" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Correct: Karma reflects that every action has a consequence."
+        }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: Karma is the spiritual law of cause and effect." }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "questionText": [
+        { "text": "Which festival celebrates the birth of Lord Krishna?" }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "Diwali" },
+        { "value": true, "text": "Janmashtami" },
+        { "value": false, "text": "Holi" },
+        { "value": false, "text": "Ram Navami" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Janmashtami celebrates Krishna's birth." }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: Janmashtami is the correct answer." }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "mrq",
+      "questionText": [
+        {
+          "text": "Which of the following are symbols of peace in spiritual traditions?"
+        }
+      ],
+      "instructionText": "Select all correct answers and select Submit.",
+      "option": [
+        { "value": true, "text": "Dove" },
+        { "value": true, "text": "Lotus" },
+        { "value": false, "text": "Sword" },
+        { "value": true, "text": "Om (ॐ)" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Correct: Dove, Lotus, and Om are spiritual symbols of peace."
+        }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: Sword is not a symbol of spiritual peace." }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "questionText": [
+        {
+          "text": "Sufism is a mystical branch of Islam focused on love and devotion."
+        }
+      ],
+      "instructionText": "Select True or False and select Submit.",
+      "option": [
+        { "value": true, "text": "True" },
+        { "value": false, "text": "False" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Correct: Sufism emphasizes divine love and spiritual closeness."
+        }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: Sufism is indeed a mystical Islamic path." }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "questionText": [
+        {
+          "text": "What does 'Namaste' spiritually signify in Indian tradition?"
+        }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "Hello" },
+        { "value": true, "text": "I bow to the divine in you" },
+        { "value": false, "text": "Goodbye" },
+        { "value": false, "text": "Thanks" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: 'Namaste' means 'I bow to the divine in you'." }
+      ],
+      "wrongFbText": [
+        {
+          "text": "Incorrect: The spiritual meaning of Namaste is honoring the divine in others."
+        }
+      ]
+    }
+  ]
+}

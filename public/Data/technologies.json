@@ -1,0 +1,206 @@
+{
+  "quiz": [
+    {
+      "id": 0,
+      "type": "mcq",
+      "questionText": [
+        { "text": "Who is known as the father of the computer?" }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "Alan Turing" },
+        { "value": true, "text": "Charles Babbage" },
+        { "value": false, "text": "Tim Berners-Lee" },
+        { "value": false, "text": "Bill Gates" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Correct: Charles Babbage is known as the father of the computer."
+        }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: The correct answer is Charles Babbage." }
+      ]
+    },
+    {
+      "id": 1,
+      "type": "mrq",
+      "questionText": [
+        { "text": "Which of the following are programming languages?" }
+      ],
+      "instructionText": "Select all correct answers and select Submit.",
+      "option": [
+        { "value": true, "text": "Python" },
+        { "value": true, "text": "Java" },
+        { "value": false, "text": "HTML" },
+        { "value": false, "text": "Photoshop" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Python and Java are programming languages." }
+      ],
+      "wrongFbText": [
+        {
+          "text": "Incorrect: HTML is a markup language, and Photoshop is software."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "questionText": [
+        { "text": "HTML stands for Hyper Text Markup Language." }
+      ],
+      "instructionText": "Select True or False and select Submit.",
+      "option": [
+        { "value": true, "text": "True" },
+        { "value": false, "text": "False" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: HTML does stand for Hyper Text Markup Language." }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: HTML stands for Hyper Text Markup Language." }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "questionText": [
+        { "text": "Which company created the Android operating system?" }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "Apple" },
+        { "value": false, "text": "Microsoft" },
+        { "value": false, "text": "Samsung" },
+        { "value": true, "text": "Google" }
+      ],
+      "correctFbText": [{ "text": "Correct: Google developed Android." }],
+      "wrongFbText": [{ "text": "Incorrect: The correct answer is Google." }]
+    },
+    {
+      "id": 4,
+      "type": "mrq",
+      "questionText": [
+        { "text": "Which devices are considered input devices?" }
+      ],
+      "instructionText": "Select all correct answers and select Submit.",
+      "option": [
+        { "value": true, "text": "Keyboard" },
+        { "value": true, "text": "Mouse" },
+        { "value": false, "text": "Monitor" },
+        { "value": false, "text": "Printer" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Keyboard and Mouse are input devices." }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: Monitor and Printer are output devices." }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "questionText": [
+        { "text": "Wi-Fi uses radio waves to provide internet access." }
+      ],
+      "instructionText": "Select True or False and select Submit.",
+      "option": [
+        { "value": true, "text": "True" },
+        { "value": false, "text": "False" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Wi-Fi transmits data via radio waves." }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: Wi-Fi uses radio waves, not wires." }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "questionText": [{ "text": "What does CPU stand for?" }],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": true, "text": "Central Processing Unit" },
+        { "value": false, "text": "Computer Power Unit" },
+        { "value": false, "text": "Central Power Utility" },
+        { "value": false, "text": "Computer Processing Unit" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: CPU stands for Central Processing Unit." }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: The correct answer is Central Processing Unit." }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "mrq",
+      "questionText": [{ "text": "Which of the following are web browsers?" }],
+      "instructionText": "Select all correct answers and select Submit.",
+      "option": [
+        { "value": true, "text": "Google Chrome" },
+        { "value": true, "text": "Mozilla Firefox" },
+        { "value": false, "text": "Windows Explorer" },
+        { "value": false, "text": "Slack" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Google Chrome and Firefox are web browsers." }
+      ],
+      "wrongFbText": [
+        {
+          "text": "Incorrect: Windows Explorer is a file manager, Slack is a communication tool."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "questionText": [
+        { "text": "Blockchain is the technology behind cryptocurrencies." }
+      ],
+      "instructionText": "Select True or False and select Submit.",
+      "option": [
+        { "value": true, "text": "True" },
+        { "value": false, "text": "False" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Correct: Blockchain enables secure and decentralized transactions."
+        }
+      ],
+      "wrongFbText": [
+        {
+          "text": "Incorrect: Blockchain is the core technology behind cryptocurrencies."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "questionText": [
+        {
+          "text": "Which programming language is primarily used for web development?"
+        }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "C++" },
+        { "value": false, "text": "Python" },
+        { "value": true, "text": "JavaScript" },
+        { "value": false, "text": "Swift" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Correct: JavaScript is widely used for building web applications."
+        }
+      ],
+      "wrongFbText": [
+        {
+          "text": "Incorrect: JavaScript is the primary language for web development."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "quiz": [
+    {
+      "id": 0,
+      "type": "mcq",
+      "questionText": [
+        { "text": "Which is the most widely grown cereal crop in the world?" }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "Barley" },
+        { "value": true, "text": "Wheat" },
+        { "value": false, "text": "Oats" },
+        { "value": false, "text": "Rye" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Wheat is the most widely grown cereal globally." }
+      ],
+      "wrongFbText": [{ "text": "Incorrect: The correct answer is Wheat." }]
+    },
+    {
+      "id": 1,
+      "type": "mrq",
+      "questionText": [{ "text": "Which of the following are types of soil?" }],
+      "instructionText": "Select all correct answers and select Submit.",
+      "option": [
+        { "value": true, "text": "Clay soil" },
+        { "value": true, "text": "Sandy soil" },
+        { "value": false, "text": "Gravel soil" },
+        { "value": true, "text": "Loamy soil" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Clay, Sandy, and Loamy are types of soil." }
+      ],
+      "wrongFbText": [
+        {
+          "text": "Incorrect: Gravel is not considered a standard soil type for farming."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "questionText": [
+        { "text": "Nitrogen is essential for leaf growth in plants." }
+      ],
+      "instructionText": "Select True or False and select Submit.",
+      "option": [
+        { "value": true, "text": "True" },
+        { "value": false, "text": "False" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Nitrogen promotes leafy growth in plants." }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: Nitrogen is key for leaf development." }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "questionText": [
+        { "text": "Which agricultural tool is used to till the soil?" }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "Sprayer" },
+        { "value": true, "text": "Plough" },
+        { "value": false, "text": "Seeder" },
+        { "value": false, "text": "Harvester" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: A plough is used to till or turn the soil." }
+      ],
+      "wrongFbText": [{ "text": "Incorrect: The correct answer is Plough." }]
+    },
+    {
+      "id": 4,
+      "type": "mrq",
+      "questionText": [
+        { "text": "Which of the following crops are Kharif crops?" }
+      ],
+      "instructionText": "Select all correct answers and select Submit.",
+      "option": [
+        { "value": true, "text": "Rice" },
+        { "value": false, "text": "Wheat" },
+        { "value": true, "text": "Maize" },
+        { "value": true, "text": "Cotton" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Rice, Maize, and Cotton are Kharif crops." }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: Wheat is a Rabi crop, not Kharif." }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "questionText": [
+        { "text": "Irrigation is the artificial application of water to soil." }
+      ],
+      "instructionText": "Select True or False and select Submit.",
+      "option": [
+        { "value": true, "text": "True" },
+        { "value": false, "text": "False" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Correct: Irrigation helps provide water when rainfall is insufficient."
+        }
+      ],
+      "wrongFbText": [
+        {
+          "text": "Incorrect: Irrigation means supplying water to crops artificially."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "questionText": [
+        {
+          "text": "Which of the following nutrients is not a primary nutrient for plants?"
+        }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "Nitrogen" },
+        { "value": false, "text": "Phosphorus" },
+        { "value": false, "text": "Potassium" },
+        { "value": true, "text": "Calcium" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Calcium is a secondary nutrient." }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: Calcium is not a primary nutrient like N, P, K." }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "mrq",
+      "questionText": [
+        { "text": "Which of the following are organic fertilizers?" }
+      ],
+      "instructionText": "Select all correct answers and select Submit.",
+      "option": [
+        { "value": true, "text": "Compost" },
+        { "value": true, "text": "Cow dung" },
+        { "value": false, "text": "Urea" },
+        { "value": true, "text": "Green manure" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Compost, Cow dung, and Green manure are organic." }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: Urea is a chemical fertilizer, not organic." }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "questionText": [
+        { "text": "Crop rotation helps improve soil fertility." }
+      ],
+      "instructionText": "Select True or False and select Submit.",
+      "option": [
+        { "value": true, "text": "True" },
+        { "value": false, "text": "False" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Crop rotation prevents nutrient depletion." }
+      ],
+      "wrongFbText": [
+        {
+          "text": "Incorrect: Crop rotation benefits the soil and reduces pests."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "questionText": [
+        { "text": "Which Indian state is the largest producer of wheat?" }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "Madhya Pradesh" },
+        { "value": false, "text": "Bihar" },
+        { "value": true, "text": "Uttar Pradesh" },
+        { "value": false, "text": "Haryana" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Uttar Pradesh produces the most wheat in India." }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: The correct answer is Uttar Pradesh." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "quiz": [
+    {
+      "id": 0,
+      "type": "mcq",
+      "questionText": [
+        { "text": "What is the boiling point of water at sea level?" }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "90°C" },
+        { "value": true, "text": "100°C" },
+        { "value": false, "text": "80°C" },
+        { "value": false, "text": "70°C" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Water boils at 100°C at sea level." }
+      ],
+      "wrongFbText": [{ "text": "Incorrect: The correct answer is 100°C." }]
+    },
+    {
+      "id": 1,
+      "type": "mrq",
+      "questionText": [
+        { "text": "Which of the following are states of matter?" }
+      ],
+      "instructionText": "Select all correct answers and select Submit.",
+      "option": [
+        { "value": true, "text": "Solid" },
+        { "value": true, "text": "Liquid" },
+        { "value": true, "text": "Gas" },
+        { "value": false, "text": "Energy" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Solid, Liquid, and Gas are states of matter." }
+      ],
+      "wrongFbText": [{ "text": "Incorrect: Energy is not a state of matter." }]
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "questionText": [{ "text": "The Earth revolves around the Sun." }],
+      "instructionText": "Select True or False and select Submit.",
+      "option": [
+        { "value": true, "text": "True" },
+        { "value": false, "text": "False" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Earth revolves around the Sun in about 365 days." }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: Earth orbits the Sun, not the other way around." }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "questionText": [
+        { "text": "What gas do plants absorb during photosynthesis?" }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "Oxygen" },
+        { "value": true, "text": "Carbon dioxide" },
+        { "value": false, "text": "Nitrogen" },
+        { "value": false, "text": "Hydrogen" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Correct: Plants absorb carbon dioxide during photosynthesis."
+        }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: The correct answer is Carbon dioxide." }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "mrq",
+      "questionText": [
+        { "text": "Which of the following are renewable energy sources?" }
+      ],
+      "instructionText": "Select all correct answers and select Submit.",
+      "option": [
+        { "value": true, "text": "Solar" },
+        { "value": true, "text": "Wind" },
+        { "value": false, "text": "Coal" },
+        { "value": true, "text": "Hydropower" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Solar, Wind, and Hydropower are renewable." }
+      ],
+      "wrongFbText": [{ "text": "Incorrect: Coal is non-renewable." }]
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "questionText": [
+        { "text": "Sound travels faster in air than in water." }
+      ],
+      "instructionText": "Select True or False and select Submit.",
+      "option": [
+        { "value": false, "text": "True" },
+        { "value": true, "text": "False" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Sound travels faster in water than in air." }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: Sound moves faster in denser media like water." }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "questionText": [
+        { "text": "Which planet is known as the 'Blue Planet'?" }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": true, "text": "Earth" },
+        { "value": false, "text": "Neptune" },
+        { "value": false, "text": "Venus" },
+        { "value": false, "text": "Uranus" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Correct: Earth is known as the Blue Planet due to its water bodies."
+        }
+      ],
+      "wrongFbText": [{ "text": "Incorrect: Earth is the Blue Planet." }]
+    },
+    {
+      "id": 7,
+      "type": "mrq",
+      "questionText": [
+        { "text": "Which of the following are organs of the human body?" }
+      ],
+      "instructionText": "Select all correct answers and select Submit.",
+      "option": [
+        { "value": true, "text": "Liver" },
+        { "value": true, "text": "Heart" },
+        { "value": false, "text": "Plasma" },
+        { "value": true, "text": "Kidney" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Liver, Heart, and Kidney are organs." }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: Plasma is part of blood, not an organ." }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "questionText": [
+        { "text": "Atoms are the smallest unit of an element." }
+      ],
+      "instructionText": "Select True or False and select Submit.",
+      "option": [
+        { "value": true, "text": "True" },
+        { "value": false, "text": "False" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Atoms are the basic unit of an element." }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: Atoms are indeed the smallest unit." }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "questionText": [
+        { "text": "Which organ pumps blood throughout the body?" }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "Lungs" },
+        { "value": true, "text": "Heart" },
+        { "value": false, "text": "Liver" },
+        { "value": false, "text": "Brain" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: The heart pumps blood throughout the body." }
+      ],
+      "wrongFbText": [{ "text": "Incorrect: The correct answer is Heart." }]
+    }
+  ]
+}

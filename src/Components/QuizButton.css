@@ -1,0 +1,18 @@
+button.btn-submit,
+button.btn-next-question {
+	border          : none;
+	background-color: #695ea3;
+	padding         : 5px 20px;
+	border-radius   : 5px;
+	margin-top      : 10px;
+	box-shadow      : 3px 3px 10px #00000070;
+	color           : #fff;
+	font-size       : 16px;
+	cursor          : pointer;
+}
+
+button.btn-submit:hover,
+button.btn-next-question:hover {
+	background-color: #aea5dd;
+	transition      : all 300ms ease-in;
+}

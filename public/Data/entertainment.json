@@ -1,0 +1,190 @@
+{
+  "quiz": [
+    {
+      "id": 0,
+      "type": "mcq",
+      "questionText": [{ "text": "Who directed the movie Inception?" }],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "Steven Spielberg" },
+        { "value": true, "text": "Christopher Nolan" },
+        { "value": false, "text": "James Cameron" },
+        { "value": false, "text": "Quentin Tarantino" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Christopher Nolan directed Inception." }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: The correct answer is Christopher Nolan." }
+      ]
+    },
+    {
+      "id": 1,
+      "type": "mrq",
+      "questionText": [
+        { "text": "Which of the following are Marvel superheroes?" }
+      ],
+      "instructionText": "Select all correct answers and select Submit.",
+      "option": [
+        { "value": true, "text": "Iron Man" },
+        { "value": false, "text": "Superman" },
+        { "value": true, "text": "Thor" },
+        { "value": false, "text": "Batman" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Iron Man and Thor are Marvel heroes." }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: Superman and Batman are from DC Comics." }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "questionText": [
+        { "text": "The sitcom Friends first aired in the 2000s." }
+      ],
+      "instructionText": "Select True or False and select Submit.",
+      "option": [
+        { "value": false, "text": "True" },
+        { "value": true, "text": "False" }
+      ],
+      "correctFbText": [{ "text": "Correct: It first aired in 1994." }],
+      "wrongFbText": [
+        { "text": "Incorrect: Friends began in the 1990s, not the 2000s." }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "questionText": [
+        {
+          "text": "What is the highest-grossing film of all time (as of 2024)?"
+        }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": true, "text": "Avatar" },
+        { "value": false, "text": "Avengers: Endgame" },
+        { "value": false, "text": "Titanic" },
+        { "value": false, "text": "The Lion King" }
+      ],
+      "correctFbText": [{ "text": "Correct: Avatar holds the top spot." }],
+      "wrongFbText": [{ "text": "Incorrect: The correct answer is Avatar." }]
+    },
+    {
+      "id": 4,
+      "type": "mrq",
+      "questionText": [
+        { "text": "Which of the following are reality TV shows?" }
+      ],
+      "instructionText": "Select all correct answers and select Submit.",
+      "option": [
+        { "value": true, "text": "Bigg Boss" },
+        { "value": false, "text": "Game of Thrones" },
+        { "value": true, "text": "The Voice" },
+        { "value": false, "text": "Stranger Things" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Bigg Boss and The Voice are reality TV shows." }
+      ],
+      "wrongFbText": [
+        {
+          "text": "Incorrect: Game of Thrones and Stranger Things are fictional dramas."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "questionText": [
+        { "text": "Taylor Swift won the Grammy for Album of the Year in 2023." }
+      ],
+      "instructionText": "Select True or False and select Submit.",
+      "option": [
+        { "value": true, "text": "True" },
+        { "value": false, "text": "False" }
+      ],
+      "correctFbText": [{ "text": "Correct: She won for Midnights in 2023." }],
+      "wrongFbText": [
+        { "text": "Incorrect: Taylor Swift did win Album of the Year in 2023." }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "questionText": [
+        { "text": "Which Indian actor played the role of Munna Bhai?" }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "Aamir Khan" },
+        { "value": false, "text": "Salman Khan" },
+        { "value": true, "text": "Sanjay Dutt" },
+        { "value": false, "text": "Shah Rukh Khan" }
+      ],
+      "correctFbText": [{ "text": "Correct: Sanjay Dutt played Munna Bhai." }],
+      "wrongFbText": [
+        { "text": "Incorrect: The correct answer is Sanjay Dutt." }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "mrq",
+      "questionText": [{ "text": "Which of these are animated movies?" }],
+      "instructionText": "Select all correct answers and select Submit.",
+      "option": [
+        { "value": true, "text": "Frozen" },
+        { "value": true, "text": "Coco" },
+        { "value": false, "text": "The Dark Knight" },
+        { "value": true, "text": "Moana" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Frozen, Coco, and Moana are animated." }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: The Dark Knight is a live-action movie." }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "questionText": [
+        {
+          "text": "The Oscars are awarded by the Hollywood Foreign Press Association."
+        }
+      ],
+      "instructionText": "Select True or False and select Submit.",
+      "option": [
+        { "value": false, "text": "True" },
+        { "value": true, "text": "False" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Oscars are awarded by the Academy, not HFPA." }
+      ],
+      "wrongFbText": [
+        {
+          "text": "Incorrect: The Oscars are awarded by the Academy, not the HFPA."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "questionText": [
+        { "text": "Which streaming platform released Stranger Things?" }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "Amazon Prime" },
+        { "value": false, "text": "Hulu" },
+        { "value": true, "text": "Netflix" },
+        { "value": false, "text": "Disney+" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Stranger Things is a Netflix original." }
+      ],
+      "wrongFbText": [{ "text": "Incorrect: The correct answer is Netflix." }]
+    }
+  ]
+}
