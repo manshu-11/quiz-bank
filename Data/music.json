@@ -1,0 +1,192 @@
+{
+  "quiz": [
+    {
+      "id": 0,
+      "type": "mcq",
+      "questionText": [{ "text": "Who is known as the 'King of Pop'?" }],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "Elvis Presley" },
+        { "value": true, "text": "Michael Jackson" },
+        { "value": false, "text": "Freddie Mercury" },
+        { "value": false, "text": "Justin Bieber" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Michael Jackson is known as the 'King of Pop'." }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: The correct answer is Michael Jackson." }
+      ]
+    },
+    {
+      "id": 1,
+      "type": "mrq",
+      "questionText": [
+        { "text": "Which of the following are musical instruments?" }
+      ],
+      "instructionText": "Select all correct answers and select Submit.",
+      "option": [
+        { "value": true, "text": "Guitar" },
+        { "value": true, "text": "Piano" },
+        { "value": false, "text": "Canvas" },
+        { "value": true, "text": "Drums" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Guitar, Piano, and Drums are musical instruments." }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: Canvas is used for painting, not music." }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "questionText": [
+        { "text": "The treble clef is also known as the G clef." }
+      ],
+      "instructionText": "Select True or False and select Submit.",
+      "option": [
+        { "value": true, "text": "True" },
+        { "value": false, "text": "False" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Treble clef is also called G clef." }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: Treble clef is indeed the G clef." }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "questionText": [
+        { "text": "Which Indian musical instrument is a string instrument?" }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "Tabla" },
+        { "value": true, "text": "Sitar" },
+        { "value": false, "text": "Shehnai" },
+        { "value": false, "text": "Mridangam" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: The sitar is a string instrument." }
+      ],
+      "wrongFbText": [{ "text": "Incorrect: The correct answer is Sitar." }]
+    },
+    {
+      "id": 4,
+      "type": "mrq",
+      "questionText": [
+        { "text": "Which of the following are types of musical scales?" }
+      ],
+      "instructionText": "Select all correct answers and select Submit.",
+      "option": [
+        { "value": true, "text": "Major" },
+        { "value": true, "text": "Minor" },
+        { "value": false, "text": "Volume" },
+        { "value": true, "text": "Pentatonic" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Major, Minor, and Pentatonic are types of scales." }
+      ],
+      "wrongFbText": [{ "text": "Incorrect: Volume is not a musical scale." }]
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "questionText": [{ "text": "Beethoven was a famous German composer." }],
+      "instructionText": "Select True or False and select Submit.",
+      "option": [
+        { "value": true, "text": "True" },
+        { "value": false, "text": "False" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Correct: Ludwig van Beethoven was a legendary German composer."
+        }
+      ],
+      "wrongFbText": [
+        {
+          "text": "Incorrect: Beethoven was German and composed classical music."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "questionText": [
+        { "text": "Which of the following is a percussion instrument?" }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "Flute" },
+        { "value": true, "text": "Djembe" },
+        { "value": false, "text": "Violin" },
+        { "value": false, "text": "Clarinet" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Djembe is a percussion instrument." }
+      ],
+      "wrongFbText": [{ "text": "Incorrect: The correct answer is Djembe." }]
+    },
+    {
+      "id": 7,
+      "type": "mrq",
+      "questionText": [
+        { "text": "Which of the following are elements of music?" }
+      ],
+      "instructionText": "Select all correct answers and select Submit.",
+      "option": [
+        { "value": true, "text": "Melody" },
+        { "value": true, "text": "Rhythm" },
+        { "value": true, "text": "Harmony" },
+        { "value": false, "text": "Brightness" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Correct: Melody, Rhythm, and Harmony are elements of music."
+        }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: Brightness is not a basic musical element." }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "questionText": [{ "text": "A standard piano has 88 keys." }],
+      "instructionText": "Select True or False and select Submit.",
+      "option": [
+        { "value": true, "text": "True" },
+        { "value": false, "text": "False" }
+      ],
+      "correctFbText": [{ "text": "Correct: A full-size piano has 88 keys." }],
+      "wrongFbText": [
+        { "text": "Incorrect: A standard piano does have 88 keys." }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "questionText": [
+        {
+          "text": "Which music genre is characterized by improvisation and swing?"
+        }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "Classical" },
+        { "value": true, "text": "Jazz" },
+        { "value": false, "text": "Pop" },
+        { "value": false, "text": "Rock" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Correct: Jazz is known for improvisation and swing rhythms."
+        }
+      ],
+      "wrongFbText": [{ "text": "Incorrect: The correct answer is Jazz." }]
+    }
+  ]
+}

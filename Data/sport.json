@@ -1,0 +1,245 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "type": "mrq",
+      "questionText": [
+        {
+          "text": "Which of the following countries have won the FIFA World Cup?"
+        }
+      ],
+      "instructionText": "Select all that apply and select Submit.",
+      "option": [
+        { "value": true, "text": "Brazil" },
+        { "value": true, "text": "Argentina" },
+        { "value": true, "text": "Italy" },
+        { "value": false, "text": "Portugal" },
+        { "value": false, "text": "Mexico" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Correct! Brazil, Argentina, and Italy have all won the FIFA World Cup."
+        }
+      ],
+      "wrongFbText": [
+        {
+          "text": "Not quite. The correct answers are Brazil, Argentina, and Italy."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "questionText": [
+        {
+          "text": "True or False: The Olympics are held every 4 years."
+        }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": true, "text": "True" },
+        { "value": false, "text": "False" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Correct! The Summer and Winter Olympics each occur every four years."
+        }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect. The Olympics are indeed held every 4 years." }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "questionText": [
+        {
+          "text": "Who has the most Grand Slam titles in men's tennis?"
+        }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "Rafael Nadal" },
+        { "value": true, "text": "Novak Djokovic" },
+        { "value": false, "text": "Roger Federer" },
+        { "value": false, "text": "Andy Murray" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Well done! Novak Djokovic currently holds the record for the most Grand Slam titles."
+        }
+      ],
+      "wrongFbText": [
+        { "text": "Not quite. The correct answer is Novak Djokovic." }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "mrq",
+      "questionText": [
+        {
+          "text": "Which of the following are positions in American football?"
+        }
+      ],
+      "instructionText": "Select all that apply and select Submit.",
+      "option": [
+        { "value": true, "text": "Quarterback" },
+        { "value": false, "text": "Goalkeeper" },
+        { "value": true, "text": "Wide Receiver" },
+        { "value": false, "text": "Forward" },
+        { "value": true, "text": "Linebacker" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Correct! Quarterback, Wide Receiver, and Linebacker are all positions in American football."
+        }
+      ],
+      "wrongFbText": [
+        {
+          "text": "Oops! The correct answers are Quarterback, Wide Receiver, and Linebacker."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "questionText": [
+        {
+          "text": "True or False: A basketball game is played in four quarters. "
+        }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": true, "text": "True" },
+        { "value": false, "text": "False" }
+      ],
+      "correctFbText": [
+        {
+          "text": "That's right! A standard basketball game has four quarters."
+        }
+      ],
+      "wrongFbText": [
+        {
+          "text": "Incorrect. Basketball games are indeed played in four quarters."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "questionText": [
+        {
+          "text": "In which sport would you perform a 'slam dunk'? "
+        }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "Volleyball" },
+        { "value": true, "text": "Basketball" },
+        { "value": false, "text": "Football" },
+        { "value": false, "text": "Cricket" }
+      ],
+      "correctFbText": [
+        { "text": "Nice work! Slam dunks are a signature move in basketball." }
+      ],
+      "wrongFbText": [
+        { "text": "Not quite. The correct answer is basketball." }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "mrq",
+      "questionText": [
+        {
+          "text": "QUESTION_NO:07 - Which players are considered among the top cricket batsmen in the world?"
+        }
+      ],
+      "instructionText": "Select all that apply and select Submit.",
+      "option": [
+        { "value": true, "text": "Virat Kohli" },
+        { "value": true, "text": "Steve Smith" },
+        { "value": false, "text": "Lionel Messi" },
+        { "value": true, "text": "Joe Root" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Good job! Virat Kohli, Steve Smith, and Joe Root are top cricket batsmen."
+        }
+      ],
+      "wrongFbText": [
+        {
+          "text": "Incorrect. The correct answers are Virat Kohli, Steve Smith, and Joe Root."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "questionText": [
+        {
+          "text": "True or False: Usain Bolt holds the world record in the 100m sprint."
+        }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": true, "text": "True" },
+        { "value": false, "text": "False" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Correct! Usain Bolt holds the 100m world record with a time of 9.58 seconds."
+        }
+      ],
+      "wrongFbText": [
+        {
+          "text": "Incorrect. Usain Bolt indeed holds the world record in the 100m sprint."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "questionText": [{ "text": "Who won the NBA Championship in 2020? " }],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "Miami Heat" },
+        { "value": true, "text": "Los Angeles Lakers" },
+        { "value": false, "text": "Golden State Warriors" },
+        { "value": false, "text": "Milwaukee Bucks" }
+      ],
+      "correctFbText": [
+        {
+          "text": "That's correct! The Los Angeles Lakers won the 2020 NBA Championship."
+        }
+      ],
+      "wrongFbText": [
+        {
+          "text": "Not quite. The Los Angeles Lakers were the champions in 2020."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "mrq",
+      "questionText": [{ "text": "Which of these are Olympic sports?" }],
+      "instructionText": "Select all that apply and select Submit.",
+      "option": [
+        { "value": true, "text": "Swimming" },
+        { "value": true, "text": "Archery" },
+        { "value": false, "text": "Squash" },
+        { "value": true, "text": "Rugby Sevens" },
+        { "value": false, "text": "Bowling" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Correct! Swimming, Archery, and Rugby Sevens are Olympic sports."
+        }
+      ],
+      "wrongFbText": [
+        {
+          "text": "Incorrect. The correct answers are Swimming, Archery, and Rugby Sevens."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "quiz": [
+    {
+      "id": 0,
+      "type": "mcq",
+      "questionText": [
+        { "text": "Which city is famously known as the 'City of Light'?" }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "Rome" },
+        { "value": true, "text": "Paris" },
+        { "value": false, "text": "London" },
+        { "value": false, "text": "New York" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Paris is known as the 'City of Light'." }
+      ],
+      "wrongFbText": [{ "text": "Incorrect: The correct answer is Paris." }]
+    },
+    {
+      "id": 1,
+      "type": "mrq",
+      "questionText": [
+        { "text": "Which of the following countries are in Europe?" }
+      ],
+      "instructionText": "Select all correct answers and select Submit.",
+      "option": [
+        { "value": true, "text": "Germany" },
+        { "value": true, "text": "France" },
+        { "value": false, "text": "Brazil" },
+        { "value": true, "text": "Italy" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Correct: Germany, France, and Italy are European countries."
+        }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: Brazil is in South America, not Europe." }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "questionText": [
+        { "text": "Mount Everest is the tallest mountain in the world." }
+      ],
+      "instructionText": "Select True or False and select Submit.",
+      "option": [
+        { "value": true, "text": "True" },
+        { "value": false, "text": "False" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Mount Everest is the highest peak on Earth." }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: Everest is indeed the tallest mountain." }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "questionText": [
+        {
+          "text": "Which of the following is a popular beach destination in India?"
+        }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "Shimla" },
+        { "value": true, "text": "Goa" },
+        { "value": false, "text": "Manali" },
+        { "value": false, "text": "Jaipur" }
+      ],
+      "correctFbText": [{ "text": "Correct: Goa is famous for its beaches." }],
+      "wrongFbText": [
+        { "text": "Incorrect: Goa is the correct beach destination." }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "mrq",
+      "questionText": [
+        {
+          "text": "Which of the following are required before international travel?"
+        }
+      ],
+      "instructionText": "Select all correct answers and select Submit.",
+      "option": [
+        { "value": true, "text": "Passport" },
+        { "value": true, "text": "Visa (if required)" },
+        { "value": false, "text": "Voter ID" },
+        { "value": true, "text": "Flight ticket" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Correct: Passport, visa, and flight ticket are needed for international travel."
+        }
+      ],
+      "wrongFbText": [
+        {
+          "text": "Incorrect: Voter ID is not needed for international travel."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "questionText": [
+        { "text": "The Great Wall of China can be seen from the Moon." }
+      ],
+      "instructionText": "Select True or False and select Submit.",
+      "option": [
+        { "value": false, "text": "True" },
+        { "value": true, "text": "False" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Correct: It's a myth; the Great Wall is not visible from the Moon."
+        }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: The Great Wall is not visible from the Moon." }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "questionText": [
+        { "text": "Which country is home to the Eiffel Tower?" }
+      ],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "Italy" },
+        { "value": true, "text": "France" },
+        { "value": false, "text": "Spain" },
+        { "value": false, "text": "Germany" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: The Eiffel Tower is located in Paris, France." }
+      ],
+      "wrongFbText": [{ "text": "Incorrect: The correct answer is France." }]
+    },
+    {
+      "id": 7,
+      "type": "mrq",
+      "questionText": [
+        { "text": "Which of the following are famous travel landmarks?" }
+      ],
+      "instructionText": "Select all correct answers and select Submit.",
+      "option": [
+        { "value": true, "text": "Statue of Liberty" },
+        { "value": true, "text": "Colosseum" },
+        { "value": false, "text": "Wall Street" },
+        { "value": true, "text": "Taj Mahal" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Correct: Statue of Liberty, Colosseum, and Taj Mahal are world-famous landmarks."
+        }
+      ],
+      "wrongFbText": [
+        {
+          "text": "Incorrect: Wall Street is a financial district, not a landmark for tourism."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "questionText": [
+        {
+          "text": "Travel insurance covers lost luggage and medical emergencies."
+        }
+      ],
+      "instructionText": "Select True or False and select Submit.",
+      "option": [
+        { "value": true, "text": "True" },
+        { "value": false, "text": "False" }
+      ],
+      "correctFbText": [
+        {
+          "text": "Correct: Travel insurance often includes luggage and medical coverage."
+        }
+      ],
+      "wrongFbText": [
+        { "text": "Incorrect: Travel insurance does cover these issues." }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "questionText": [{ "text": "Which continent has the most countries?" }],
+      "instructionText": "Select the correct answer and select Submit.",
+      "option": [
+        { "value": false, "text": "Asia" },
+        { "value": true, "text": "Africa" },
+        { "value": false, "text": "Europe" },
+        { "value": false, "text": "South America" }
+      ],
+      "correctFbText": [
+        { "text": "Correct: Africa has the highest number of countries." }
+      ],
+      "wrongFbText": [{ "text": "Incorrect: Africa is the correct answer." }]
+    }
+  ]
+}
