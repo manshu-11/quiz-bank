@@ -1,21 +1,15 @@
 {
   "files": {
-    "main.css": "/quiz-bank/static/css/main.4cdbf18a.css",
-    "main.js": "/quiz-bank/static/js/main.df8334ac.js",
-    "static/css/850.0a7a3e93.chunk.css": "/quiz-bank/static/css/850.0a7a3e93.chunk.css",
-    "static/js/850.a1c8673b.chunk.js": "/quiz-bank/static/js/850.a1c8673b.chunk.js",
-    "static/js/96.56c44acb.chunk.js": "/quiz-bank/static/js/96.56c44acb.chunk.js",
+    "main.css": "/quiz-bank/static/css/main.d24d61c7.css",
+    "main.js": "/quiz-bank/static/js/main.47d5bd4f.js",
     "static/media/quiz.webp": "/quiz-bank/static/media/quiz.4b92d2797a72ce7d5c4f.webp",
     "static/media/qbg.webp": "/quiz-bank/static/media/qbg.edaf8a229d9a72d78016.webp",
     "index.html": "/quiz-bank/index.html",
-    "main.4cdbf18a.css.map": "/quiz-bank/static/css/main.4cdbf18a.css.map",
-    "main.df8334ac.js.map": "/quiz-bank/static/js/main.df8334ac.js.map",
-    "850.0a7a3e93.chunk.css.map": "/quiz-bank/static/css/850.0a7a3e93.chunk.css.map",
-    "850.a1c8673b.chunk.js.map": "/quiz-bank/static/js/850.a1c8673b.chunk.js.map",
-    "96.56c44acb.chunk.js.map": "/quiz-bank/static/js/96.56c44acb.chunk.js.map"
+    "main.d24d61c7.css.map": "/quiz-bank/static/css/main.d24d61c7.css.map",
+    "main.47d5bd4f.js.map": "/quiz-bank/static/js/main.47d5bd4f.js.map"
   },
   "entrypoints": [
-    "static/css/main.4cdbf18a.css",
-    "static/js/main.df8334ac.js"
+    "static/css/main.d24d61c7.css",
+    "static/js/main.47d5bd4f.js"
   ]
 }
