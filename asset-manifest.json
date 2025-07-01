@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/https//manshu-11.github.io/quiz-bank/static/css/main.a9e57aee.css",
-    "main.js": "/https//manshu-11.github.io/quiz-bank/static/js/main.03201a52.js",
-    "static/media/quiz.jpg": "/https//manshu-11.github.io/quiz-bank/static/media/quiz.5f15b5e692655fe326c3.jpg",
-    "static/media/qbg.png": "/https//manshu-11.github.io/quiz-bank/static/media/qbg.532e56393fd6cc09a663.png",
-    "index.html": "/https//manshu-11.github.io/quiz-bank/index.html",
-    "main.a9e57aee.css.map": "/https//manshu-11.github.io/quiz-bank/static/css/main.a9e57aee.css.map",
-    "main.03201a52.js.map": "/https//manshu-11.github.io/quiz-bank/static/js/main.03201a52.js.map"
+    "main.css": "/quiz-bank/static/css/main.6dc3b419.css",
+    "main.js": "/quiz-bank/static/js/main.37ed97df.js",
+    "static/media/quiz.jpg": "/quiz-bank/static/media/quiz.5f15b5e692655fe326c3.jpg",
+    "static/media/qbg.png": "/quiz-bank/static/media/qbg.532e56393fd6cc09a663.png",
+    "index.html": "/quiz-bank/index.html",
+    "main.6dc3b419.css.map": "/quiz-bank/static/css/main.6dc3b419.css.map",
+    "main.37ed97df.js.map": "/quiz-bank/static/js/main.37ed97df.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9e57aee.css",
-    "static/js/main.03201a52.js"
+    "static/css/main.6dc3b419.css",
+    "static/js/main.37ed97df.js"
   ]
 }
