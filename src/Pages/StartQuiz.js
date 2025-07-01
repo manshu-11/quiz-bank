@@ -11,7 +11,7 @@ const StartQuiz = ({ reduxData }) => {
     const fetchData = async () => {
       try {
         const res = await fetch(
-          `../../Data/${reduxData.quizSetting.topic}.json`
+          `/quiz-bank/Data/${reduxData?.quizSetting?.topic}.json`
         );
         const data = await res.json();
         setQuizData(data);
@@ -26,14 +26,10 @@ const StartQuiz = ({ reduxData }) => {
     if (quizData && val) {
       const quObj = getRandomElement(quizData?.quiz || []);
       setRandomQU(quObj);
-      console.log(randomQU);
     } else {
       setRandomQU(quizData?.quiz);
     }
   }, [quizData]);
-  if (randomQU) {
-    console.log(reduxData.currentQuestionNo, randomQU.length);
-  }
   return (
     <>
       {randomQU &&

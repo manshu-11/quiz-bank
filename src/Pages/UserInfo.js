@@ -37,7 +37,6 @@ function UserInfo({ setHide }) {
     try {
       const q = query(usersRef, orderByChild("email"), equalTo(userData.email));
       const snapshot = await get(q);
-      console.log(snapshot);
       if (snapshot.exists()) {
         alert("❌ Email already exists!");
         return false;

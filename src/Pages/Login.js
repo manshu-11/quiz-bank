@@ -13,7 +13,6 @@ function Login({ setHide }) {
   const dispatch = useDispatch();
   const handleLogin = (e) => {
     e.preventDefault();
-    console.log(userEmail, userPassword);
     signInWithEmailAndPassword(auth, userEmail, userPassword)
       .then((userCredential) => {
         const userDetails = {
@@ -21,7 +20,6 @@ function Login({ setHide }) {
           email: userCredential._tokenResponse.email,
         };
         setUserData(userDetails);
-        console.log(userDetails);
         dispatch(setUserDetail(userDetails));
         setUserEmail("");
         setUserPassword("");
@@ -36,11 +34,9 @@ function Login({ setHide }) {
       });
   };
   const handleEmailChange = (value) => {
-    console.log(value);
     setUserEmail(value);
   };
   const handlePasswordChange = (value) => {
-    console.log(value);
     setUserPassword(value);
   };
   const handleGotoSignIn = () => {

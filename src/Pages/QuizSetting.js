@@ -11,7 +11,6 @@ function QuizSetting() {
   });
   const onSettingChange = (e) => {
     setQuizSetting((pre) => {
-      console.log(e.target.name, e.target.value);
       return { ...pre, [e.target.name]: e.target.value };
     });
   };

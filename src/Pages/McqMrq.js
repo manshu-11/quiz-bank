@@ -13,7 +13,6 @@ import {
 } from "../Redux/QuizSlice";
 import { getRandomElement } from "../utils/utils";
 function McqMrq({ quData, reduxData }) {
-  console.log("McqMrq");
   const refs = useRef([]);
   const [correctAns, setCorrectAns] = useState([]);
   const [isQuestionCorrect, setIsQuestionCorrect] = useState();
@@ -72,7 +71,6 @@ function McqMrq({ quData, reduxData }) {
       const userAnsSelected = refs.current.map((ele, i) =>
         ele.current.getAttribute("data-Select")
       );
-      console.log(userAnsSelected);
       const checkCorrect = correctAns.every((ele, i) => ele === userAns[i]);
       setIsQuestionCorrect(checkCorrect);
       setIsOptionSelected(false);

@@ -23,8 +23,8 @@ p h1 {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background: url("/public/images/qbg.png") no-repeat transparent 0 0;
+  background: url("/public/images/qbg.webp") no-repeat transparent 0 0;
 }
 .quiz_bank .intro-box {
-  background: url("/public/images/quiz.jpg") no-repeat transparent 0 0;
+  background: url("/public/images/quiz.webp") no-repeat transparent 0 0;
 }

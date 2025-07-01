@@ -1,7 +1,6 @@
 import React from "react";
 import "./OptionButton.css";
 function OptionButton({ buttonRef, oText, type, optClick, correctAns }) {
-  console.log("optionBtn");
   return (
     <button
       ref={buttonRef}
