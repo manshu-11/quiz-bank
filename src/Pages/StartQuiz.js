@@ -35,6 +35,7 @@ const StartQuiz = ({ reduxData }) => {
       {randomQU &&
         (reduxData.currentQuestionNo < randomQU.length ? (
           <McqMrq
+            totalQ={randomQU.length}
             quData={randomQU && randomQU[reduxData.currentQuestionNo]}
             reduxData={reduxData}
           />

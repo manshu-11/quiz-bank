@@ -33,6 +33,9 @@
 .intro-box .login-info {
   opacity: 0;
 }
+.intro-box input {
+  white-space: nowrap;
+}
 .intro-box .user-info {
   opacity: 0;
 }

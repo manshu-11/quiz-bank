@@ -29,7 +29,7 @@ function UserInfo({ setHide }) {
   });
   const onInputChange = (e) => {
     setUserData((pre) => {
-      return { ...pre, [e.target.name]: e.target.value.trim() };
+      return { ...pre, [e.target.name]: e.target.value };
     });
   };
   const onFormSubmit = async (e) => {
@@ -74,6 +74,7 @@ function UserInfo({ setHide }) {
   const handleGoLoginPage = () => {
     setHide({ action: true, button: "showLogin" });
   };
+
   return (
     <div className="user-info-content">
       <form onSubmit={(e) => onFormSubmit(e)}>
@@ -86,9 +87,7 @@ function UserInfo({ setHide }) {
             type="text"
             onChange={(e) => onInputChange(e)}
             value={userData.fname}
-            maxLength={100}
             name="fname"
-            required
           />
         </div>
         <div className="option">

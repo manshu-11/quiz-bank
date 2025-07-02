@@ -8,6 +8,7 @@ function QuizSetting() {
     randomOption: "",
     randomQuestion: "",
     topic: "",
+    qTime: "",
   });
   const onSettingChange = (e) => {
     setQuizSetting((pre) => {
@@ -87,6 +88,35 @@ function QuizSetting() {
           onChange={(e) => onSettingChange(e)}
         />
         <label htmlFor="false">False </label>
+      </div>
+      <div className="option">
+        <label className="info-label" htmlFor="qTime">
+          Set Quiz Time:{" "}
+        </label>
+        <input
+          type="radio"
+          name="qTime"
+          value="5"
+          required
+          onChange={(e) => onSettingChange(e)}
+        />
+        <label htmlFor="true">5 min</label>
+        <input
+          type="radio"
+          name="qTime"
+          value="10"
+          onChange={(e) => onSettingChange(e)}
+          required
+        />
+        <label htmlFor="false">10 min</label>
+        <input
+          type="radio"
+          name="qTime"
+          value="15"
+          onChange={(e) => onSettingChange(e)}
+          required
+        />
+        <label htmlFor="false">15 min</label>
       </div>
       <button onClick={(e) => onStartQuiz(e)}>Start Quiz</button>
     </div>

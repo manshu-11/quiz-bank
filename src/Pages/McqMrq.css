@@ -6,6 +6,14 @@
   font-weight: bold;
   color: #30155f;
 }
+.quiz_bank .progress-box {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: calc(100% - 100px);
+  right: 0;
+  margin: auto;
+}
 .user-details-q p {
   margin: 0;
 }

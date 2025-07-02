@@ -12,13 +12,16 @@ import {
   updateUserAns,
 } from "../Redux/QuizSlice";
 import { getRandomElement } from "../utils/utils";
-function McqMrq({ quData, reduxData }) {
+import ProgressBar from "../Components/ProgressBar";
+import QuizTimer from "../Components/QuizTimer";
+function McqMrq({ totalQ, quData, reduxData }) {
   const refs = useRef([]);
   const [correctAns, setCorrectAns] = useState([]);
   const [isQuestionCorrect, setIsQuestionCorrect] = useState();
   const [isOptionSelected, setIsOptionSelected] = useState();
   const [quSubmit, setQuSubmit] = useState();
   const [randomOption, SetRandomOption] = useState();
+  const [percent, setPercent] = useState(0);
   const nextQuestionNoDispatch = useDispatch();
   const correctDispatch = useDispatch();
   const dispatch = useDispatch();
@@ -27,6 +30,7 @@ function McqMrq({ quData, reduxData }) {
   const [topic, setTopic] = useState();
   let cNo = reduxData.currentQuestionNo;
   let cCount = reduxData.correctCount;
+
   useEffect(() => {
     const val = reduxData.quizSetting.randomOption === "true" ? true : false;
     const randomOption = val ? getRandomElement(quData.option) : quData.option;
@@ -37,6 +41,7 @@ function McqMrq({ quData, reduxData }) {
     setCorrectAns(optionAns);
     SetRandomOption(randomOption);
   }, [quData.option]);
+
   const handleOptionButton = useCallback(
     (e) => {
       const currentOption = e.currentTarget;
@@ -63,6 +68,7 @@ function McqMrq({ quData, reduxData }) {
     },
     [quData.option, quData.type]
   );
+
   const handelSubmitAns = useCallback(
     (e) => {
       const userAns = refs.current.map((ele, i) =>
@@ -90,6 +96,7 @@ function McqMrq({ quData, reduxData }) {
     },
     [correctAns, quData.option]
   );
+
   const showSubmitButton = () => {
     const userAns = refs.current.map((ele, i) =>
       JSON.parse(ele.current.getAttribute("data-id"))
@@ -97,6 +104,7 @@ function McqMrq({ quData, reduxData }) {
     const isOptSelected = userAns.some((ele) => ele === true);
     setIsOptionSelected(isOptSelected);
   };
+
   const nextQuEvent = useCallback(
     (e) => {
       isQuestionCorrect && correctDispatch(updateCorrectCount(cCount + 1));
@@ -106,6 +114,9 @@ function McqMrq({ quData, reduxData }) {
         refs.current[id].current.setAttribute("data-id", false);
         refs.current[id].current.disabled = false;
       });
+      const newCnt = cNo + 1;
+      const step = 100 / (totalQ - 1);
+      setPercent(newCnt * step);
       setIsQuestionCorrect();
       setIsOptionSelected();
       setQuSubmit();
@@ -126,6 +137,7 @@ function McqMrq({ quData, reduxData }) {
       quizSetting.topic.toString().slice(1);
     setTopic(topic);
   }, [quizSetting]);
+
   return (
     <>
       <div className="user-details-q">
@@ -186,6 +198,12 @@ function McqMrq({ quData, reduxData }) {
             disable={false}
           />
         )}
+      </div>
+      <div className="progress-box">
+        <ProgressBar qArr={totalQ} cnt={cNo} per={percent} />
+      </div>
+      <div className="quiz-time-box">
+        <QuizTimer totalQ={totalQ} qTime={quizSetting.qTime} />
       </div>
     </>
   );

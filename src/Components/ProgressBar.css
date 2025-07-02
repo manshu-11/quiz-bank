@@ -1,0 +1,55 @@
+.p-bar-box {
+  position: relative;
+  width: 100%;
+  margin: 30px 0;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.bar {
+  width: 100%;
+  height: 10px;
+  background-color: #c9c8e3;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.fill-bar {
+  height: 100%;
+  background-color: rgba(117, 55, 225, 0.69);
+  width: 0%;
+  transition: width 0.5s ease;
+}
+
+.dots {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  pointer-events: none; /* avoids blocking clicks */
+}
+
+.q-dot {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  font-weight: bold;
+}
+.q-dot.active {
+  background-color: rgb(48, 21, 95);
+  color: #fff;
+}
+.q-dot.complete {
+  background-color: rgb(0, 128, 0);
+  color: #fff;
+}
